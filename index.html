@@ -1,35 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GENZ LOOKS</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#000;
+color:white;
+text-align:center;
+overflow-x:hidden;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+padding:20px;
+}
+
+h1{
+font-size:80px;
+letter-spacing:5px;
+margin-bottom:20px;
+}
+
+.tagline{
+font-size:24px;
+color:#bdbdbd;
+margin-bottom:40px;
+}
+
+.buttons{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.btn{
+padding:15px 30px;
+background:white;
+color:black;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+font-size:18px;
+transition:0.3s;
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.btn:hover{
+transform:scale(1.05);
+background:#dcdcdc;
+}
+
+.about{
+padding:80px 20px;
+max-width:900px;
+margin:auto;
+}
+
+.about h2{
+font-size:40px;
+margin-bottom:30px;
+}
+
+.about p{
+font-size:20px;
+line-height:1.8;
+color:#cfcfcf;
+}
+
+.contact{
+margin-top:40px;
+font-size:18px;
+color:#aaa;
+}
+
+.footer{
+padding:30px;
+color:gray;
+font-size:14px;
+}
+
+@media(max-width:768px){
+
+h1{
+font-size:50px;
+}
+
+.tagline{
+font-size:18px;
+}
+
+.about h2{
+font-size:30px;
+}
+
+.about p{
+font-size:16px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<section class="hero">
+
 <h1>GENZ LOOKS</h1>
 
-<p>
+<p class="tagline">
 Premium Streetwear For The Next Generation
 </p>
 
-<div style="margin-top:25px;">
+<div class="buttons">
 
-<a class="btn" href="https://www.instagram.com/genz_looks_in?igsh=MWpsNWk1YnRmbmky" target="_blank">
+<a class="btn"
+href="https://www.instagram.com/genz_looks_in?igsh=MWpsNWk1YnRmbmky"
+target="_blank">
+
+<i class="fa-brands fa-instagram"></i>
 Instagram
+
 </a>
 
-<a class="btn" href="https://wa.me/919125612426" target="_blank" style="margin-left:10px;">
+<a class="btn"
+href="https://wa.me/919125612426"
+target="_blank">
+
+<i class="fa-brands fa-whatsapp"></i>
 WhatsApp
+
 </a>
 
 </div>
 
-<div style="margin-top:60px; max-width:700px; line-height:1.8; color:#cfcfcf;">
+</section>
 
-<h2 style="margin-bottom:20px; color:white;">
-About GENZ LOOKS
-</h2>
+<section class="about">
+
+<h2>About GENZ LOOKS</h2>
 
 <p>
-GENZ LOOKS is a modern streetwear clothing brand specially made for Gen Z boys who love style, comfort, and confidence. Our goal is to bring trendy oversized fashion and premium outfits inspired by today’s generation.
+GENZ LOOKS is a modern streetwear clothing brand specially made for Gen Z boys who love style, confidence, and comfort. Our mission is to deliver trendy oversized fashion and premium outfits inspired by today’s generation.
 </p>
 
-<p style="margin-top:20px;">
-Contact Email:
-<br>
-surajkumar1496f@gmail.com
+<div class="contact">
+
+<p>
+📧 surajkumar1496f@gmail.com
+</p>
+
+<p style="margin-top:10px;">
+📱 +91 9125612426
 </p>
 
 </div>
+
+</section>
+
+<div class="footer">
+
+© 2026 GENZ LOOKS — All Rights Reserved
+
+</div>
+
+</body>
+</html>
