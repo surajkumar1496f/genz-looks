@@ -1,4 +1,141 @@
-```html
+<style>
+.shopnow{
+background:#ff4d00;
+box-shadow:0 0 25px rgba(255,77,0,.5);
+}
+
+.collection{
+background:#8e44ad;
+box-shadow:0 0 25px rgba(142,68,173,.5);
+}
+
+.collection-section{
+padding:80px 20px;
+background:#050505;
+text-align:center;
+margin-top:50px;
+border-radius:20px;
+}
+
+.collection-section h2{
+font-size:45px;
+margin-bottom:40px;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+max-width:1200px;
+margin:auto;
+}
+
+.product-card{
+background:#111;
+border-radius:20px;
+overflow:hidden;
+padding-bottom:20px;
+transition:.3s;
+}
+
+.product-card:hover{
+transform:translateY(-8px);
+}
+
+.product-card img{
+width:100%;
+display:block;
+}
+
+.product-card h3{
+margin:15px 0 10px;
+}
+
+.product-card p{
+color:#25D366;
+font-size:20px;
+font-weight:700;
+}
+
+.product-card a{
+display:inline-block;
+margin-top:15px;
+background:#25D366;
+color:#fff;
+text-decoration:none;
+padding:12px 25px;
+border-radius:10px;
+}
+</style>
+
+<div class="buttons">
+
+<a class="btn facebook"
+href="https://www.facebook.com/share/1BFiyZKrso/"
+target="_blank">
+<i class="fa-brands fa-facebook-f"></i>
+Facebook
+</a>
+
+<a class="btn whatsapp"
+href="https://wa.me/919125612426"
+target="_blank">
+<i class="fa-brands fa-whatsapp"></i>
+WhatsApp
+</a>
+
+<a class="btn instagram"
+href="https://www.instagram.com/genz_looks.in?igsh=MWpsNWk1YnRmbmky"
+target="_blank">
+<i class="fa-brands fa-instagram"></i>
+Instagram
+</a>
+
+<a class="btn shopnow"
+href="https://wa.me/919125612426"
+target="_blank">
+<i class="fa-solid fa-bag-shopping"></i>
+Shop Now
+</a>
+
+<a class="btn collection"
+href="#collection">
+<i class="fa-solid fa-shirt"></i>
+View Collection
+</a>
+
+</div>
+
+<div id="collection" class="collection-section">
+
+<h2>OUR COLLECTION</h2>
+
+<div class="products">
+
+<div class="product-card">
+<img src="https://via.placeholder.com/300x350" alt="">
+<h3>Oversized T-Shirt</h3>
+<p>₹799</p>
+<a href="https://wa.me/919125612426">Order Now</a>
+</div>
+
+<div class="product-card">
+<img src="https://via.placeholder.com/300x350" alt="">
+<h3>Premium Hoodie</h3>
+<p>₹1499</p>
+<a href="https://wa.me/919125612426">Order Now</a>
+</div>
+
+<div class="product-card">
+<img src="https://via.placeholder.com/300x350" alt="">
+<h3>Streetwear Shirt</h3>
+<p>₹999</p>
+<a href="https://wa.me/919125612426">Order Now</a>
+</div>
+
+</div>
+
+</div>```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
